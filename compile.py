@@ -15,7 +15,6 @@ def compile(source, tool="cx_Freeze"):
         subprocess.Popen(callstring, shell=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 source = "listdir.py"
-tool = "cx_Freeze"
-tool = "PyInstaller"
+tool = "PyInstaller" # PyInstaller or cx_Freeze
 
 compile(source, tool)
