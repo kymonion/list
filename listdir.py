@@ -9,12 +9,12 @@ for item in os.listdir(os.getcwd()):
     elif os.path.isfile(item):
         files.append(item)
 
-print("\n-= ПАПКИ: =-")
+print("\n-= 폴더 =-")
 for item in dirs:
     print(item)
 
-print("\n-= ФАЙЛЫ: =-")
+print("\n-= 파일 =-")
 for item in files:
     print(item)
 
-input("\n-= Для выхода нажмите Enter =-")
+input("\n-= Enter로 종료 =-")
